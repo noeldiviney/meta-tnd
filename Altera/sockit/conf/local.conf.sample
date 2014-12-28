@@ -20,11 +20,10 @@ CONF_VERSION = "1"
 BB_NUMBER_THREADS = '2'
 PARALLEL_MAKE = '-j 2'
 
+# use default for downloads
 #DL_DIR ?= "${BSPDIR}/downloads/"
 
-DL_DIR ?= "/home/noel/yocto/src-dl/"
-
-SOURCE_MIRROR_URL ?= "file:///home/noel/yocto/src-dl/"
+SOURCE_MIRROR_URL ?= "file:///${BSPDIR}/src-dl/"
 INHERIT += "own-mirrors"
 BB_GENERATE_MIRROR_TARBALLS = "1"
 # BB_NO_NETWORK = "1"
