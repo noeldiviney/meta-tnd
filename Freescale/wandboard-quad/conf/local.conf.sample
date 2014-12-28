@@ -17,8 +17,8 @@ PACKAGECONFIG_append_pn-nativesdk-qemu = " sdl"
 ASSUME_PROVIDED += "libsdl-native"
 CONF_VERSION = "1"
 
-BB_NUMBER_THREADS = '4'
-PARALLEL_MAKE = '-j 4'
+BB_NUMBER_THREADS = '2'
+PARALLEL_MAKE = '-j 2'
 
 #DL_DIR ?= "/home/noel/yocto/src-dl/"
 
