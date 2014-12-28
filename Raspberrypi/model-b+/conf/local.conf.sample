@@ -22,7 +22,7 @@ PARALLEL_MAKE = '-j 2'
 
 #DL_DIR ?= "${BSPDIR}/downloads/"
 
-DL_DIR ?= "/home/noel/yocto-/src-dl/"
+DL_DIR ?= "/home/noel/yocto/src-dl/"
 
 SOURCE_MIRROR_URL ?= "file:///home/noel/yocto/src-dl/"
 INHERIT += "own-mirrors"
